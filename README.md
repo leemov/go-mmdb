@@ -19,7 +19,7 @@ MaxMind::DB::Writer::Tree;
 ```
 - After you install those perl modules, then you can build from csv file into mmdb
 ```sh
-perl build.pl
+4 perl build.pl
 ```
 
 # Read mmdb in golang
@@ -54,6 +54,6 @@ $ dep ensure -v
 ```
 
 ```sh
-go run main.go
+$ go run main.go
 ```
 
