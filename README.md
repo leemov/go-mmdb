@@ -2,6 +2,11 @@
 This is note on how I implement example of how to lookup IP on ASN dictionary using .mmdb format
 what is mmdb you can read on the official page https://maxmind.github.io/MaxMind-DB/
 
+On my local setup, 
+loading ~400k mmdb data (6mb) with ASN resulting ~50µs duration
+lookup to new range entry resulting ~1ms duration
+lookup to cached range entry resulting ~50µs duration
+
 # Getting started
 - Clone the repo
 ```sh
