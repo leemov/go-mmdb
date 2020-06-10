@@ -12,6 +12,7 @@ what is mmdb you can read on the official page https://maxmind.github.io/MaxMind
 ```sh
 $ git clone git@github.com:leemov/go-mmdb.git
 ```
+In order to use mmdb in golang, we need to write the tree of network into mmdb file. Once mmdb file generated, we will read the file using our golang apps.
 
 # Write mmdb tree file
 - We will be using perl to write tree into .mmdb file. visit official perl site for installation
